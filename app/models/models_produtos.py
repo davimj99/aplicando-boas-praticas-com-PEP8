@@ -1,3 +1,7 @@
+from pydantic import BaseModel
+from typing import List
+
+
 # Modelo base para produto
 class ProdutoBase(BaseModel):
     nome: str
